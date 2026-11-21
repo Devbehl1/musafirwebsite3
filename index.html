@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Explore the world with Musafir Gateaways. Visa assistance, flight bookings, hotel bookings and customised tour packages.">
+<meta name="theme-color" content="#0878d1">
+<title>Musafir Gateaways | Your Next Journey Starts Here</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800;900&family=Yellowtail&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+  <a class="logo" href="#home"><img src="assets/musafir-gateaways-logo.png" alt="Musafir Gateaways logo"></a>
+  <button class="menu-btn" id="menuBtn" aria-label="Open navigation">☰</button>
+  <nav id="nav"><a class="active" href="#home">Home</a><a href="#packages">Packages <span>⌄</span></a><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+  <a class="header-whatsapp" href="https://wa.me/919724218939?text=Hello%20Musafir%20Gateaways%2C%20I%20have%20a%20travel%20enquiry." target="_blank" rel="noopener"><span>◉</span> Chat on WhatsApp</a>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-sky"></div><div class="hero-cloud cloud-a"></div><div class="hero-cloud cloud-b"></div>
+  <div class="hero-content">
+    <div class="eyebrow">D R E A M&nbsp; • &nbsp;E X P L O R E&nbsp; • &nbsp;T R A V E L</div>
+    <h1>Your Next Journey<br><em>Starts</em> Here</h1>
+    <p class="hero-sub">Explore the World with Musafir Gateaways</p>
+    <p class="hero-copy">From visa assistance to unforgettable getaways, we help bring your travel plans to life.</p>
+    <a class="btn-orange" href="#packages">Explore Packages <b>➜</b></a>
+  </div>
+  <div class="hero-visual" aria-label="Travel destinations collage">
+    <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+    <div class="globe"><div class="globe-map">✦</div></div>
+    <div class="landmark landmark-eiffel">♜</div><div class="landmark landmark-taj">♧</div><div class="landmark landmark-tower">▥</div>
+    <div class="suitcase"><span class="case-sticker">✈</span></div>
+    <div class="hat"></div>
+    <div class="plane">✈</div>
+    <div class="palm">♣</div>
+  </div>
+  <div class="flight-widget">
+    <div class="widget-tabs"><button class="tab active" data-kind="Flights">✈ Flights</button><button class="tab" data-kind="Hotels">▰ Hotels</button><button class="tab" data-kind="Tours">▣ Tours</button></div>
+    <form id="searchForm" class="search-fields">
+      <label><span>⌖</span><small>FROM</small><input id="from" placeholder="Your city"></label>
+      <label><span>⌖</span><small>TO</small><input id="to" placeholder="Where to?"></label>
+      <label><span>▦</span><small>DEPARTURE DATE</small><input id="date" type="date"></label>
+      <label><span>♙</span><small>TRAVELLERS</small><select id="people"><option>1 Traveller</option><option selected>2 Travellers</option><option>3 Travellers</option><option>4 Travellers</option><option>5+ Travellers</option></select></label>
+      <button type="submit" class="search-btn">⌕ Search <span id="searchKind">Flights</span></button>
+    </form>
+  </div>
+</section>
+
+<section class="quick-services">
+  <div><b class="quick-icon">◎</b><span><strong>International</strong><small>Tour Packages</small></span></div><i></i>
+  <div><b class="quick-icon">✈</b><span><strong>Flight</strong><small>Bookings</small></span></div><i></i>
+  <div><b class="quick-icon">▦</b><span><strong>Hotel</strong><small>Bookings</small></span></div><i></i>
+  <div><b class="quick-icon">✓</b><span><strong>Trusted & Secure</strong><small>Services</small></span></div><i></i>
+  <div><b class="quick-icon">☏</b><span><strong>Friendly</strong><small>Travel Support</small></span></div>
+</section>
+
+<section class="destinations section" id="packages">
+  <div class="dest-intro"><div class="section-kicker">✈ &nbsp;POPULAR DESTINATIONS</div><h2>Discover<br><span>Amazing Places</span></h2><p>Handpicked destination ideas for your perfect getaway.</p><a class="btn-navy" href="#packageGrid">View All Packages&nbsp; →</a></div>
+  <div class="package-grid" id="packageGrid">
+    <article class="destination-card" data-id="dubai" data-type="international"><img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=850&q=85" alt="Dubai skyline"><span class="destination-type">INTERNATIONAL</span><div class="destination-info"><b>Dubai</b><small>City lights & desert dreams</small><strong>Explore trip <i>›</i></strong></div></article>
+    <article class="destination-card" data-id="europe" data-type="international"><img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=850&q=85" alt="Eiffel Tower in Paris"><span class="destination-type">INTERNATIONAL</span><div class="destination-info"><b>Europe</b><small>Make every moment timeless</small><strong>Explore trip <i>›</i></strong></div></article>
+    <article class="destination-card" data-id="singapore" data-type="international"><img src="https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=850&q=85" alt="Singapore skyline"><span class="destination-type">INTERNATIONAL</span><div class="destination-info"><b>Singapore</b><small>Discover the city of wonders</small><strong>Explore trip <i>›</i></strong></div></article>
+    <article class="destination-card" data-id="bali" data-type="international"><img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=850&q=85" alt="Bali temple"><span class="destination-type">INTERNATIONAL</span><div class="destination-info"><b>Bali</b><small>Find your island escape</small><strong>Explore trip <i>›</i></strong></div></article>
+    <article class="destination-card" data-id="thailand" data-type="international"><img src="https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=850&q=85" alt="Thailand temple"><span class="destination-type">INTERNATIONAL</span><div class="destination-info"><b>Thailand</b><small>Culture, coastlines & colour</small><strong>Explore trip <i>›</i></strong></div></article>
+  </div>
+</section>
+
+<section class="why-section" id="about">
+  <div class="why-heading"><small>THE MUSAFIR DIFFERENCE</small><h2>Why Choose<br><span>Musafir Gateaways?</span></h2><p>We make planning your next journey feel easy, clear and exciting.</p></div>
+  <div class="why-items"><div><b>✈</b><strong>Best Deals<br>& Offers</strong><small>Options for your budget</small></div><div><b>◇</b><strong>Personalised<br>Travel Experience</strong><small>Plans made around you</small></div><div><b>◎</b><strong>Worldwide<br>Destinations</strong><small>Explore near and far</small></div><div><b>♡</b><strong>Your Trust<br>Our Priority</strong><small>Helpful human support</small></div></div>
+</section>
+
+<section class="services section" id="services"><div class="section-heading"><div class="section-kicker">TRAVEL WITHOUT THE HASSLE</div><h2>Everything for your <span>journey</span></h2><p>One place to start planning your next adventure.</p></div>
+  <div class="service-grid">
+    <article><b>◎</b><h3>Visa Application & Assistance</h3><p>Guidance with visa application steps and document preparation.</p><a href="https://wa.me/919724218939?text=Hello%2C%20I%20need%20visa%20application%20assistance." target="_blank">Enquire now ↗</a></article>
+    <article><b>✈</b><h3>Flight Bookings</h3><p>Ask us about flight options for your preferred route and dates.</p><a href="https://wa.me/919724218939?text=Hello%2C%20I%20need%20help%20with%20flight%20bookings." target="_blank">Enquire now ↗</a></article>
+    <article><b>▦</b><h3>Hotel Bookings</h3><p>Find a comfortable stay that suits your travel style and budget.</p><a href="https://wa.me/919724218939?text=Hello%2C%20I%20need%20help%20with%20hotel%20bookings." target="_blank">Enquire now ↗</a></article>
+    <article><b>✧</b><h3>Domestic & International Tours</h3><p>Explore customised trip ideas for destinations around the world.</p><a href="https://wa.me/919724218939?text=Hello%2C%20I%20want%20to%20explore%20tour%20packages." target="_blank">Enquire now ↗</a></article>
+  </div>
+</section>
+
+<section class="cta" id="contact"><div><small>YOUR NEXT ADVENTURE IS CLOSER THAN YOU THINK</small><h2>Let's make your<br><em>travel dreams</em> happen.</h2><p>Tell us where you want to go. We’ll help you plan the next step.</p><a class="btn-orange" href="https://wa.me/919724218939?text=Hello%20Musafir%20Gateaways%2C%20I%20want%20to%20plan%20a%20trip." target="_blank">Plan My Trip&nbsp; ↗</a></div><div class="contact-card"><h3>Get in touch</h3><p><small>CALL / WHATSAPP</small><a href="tel:+919724218939">+91 97242 18939</a></p><p><small>EMAIL</small><a href="mailto:musafirgateway@gmail.com">musafirgateway@gmail.com</a></p><p><small>VISIT US</small><span>201 Pancharatna Avenue, Near Amba Mata Mandir, Adinathnagar, Odhav, Ahmedabad, Gujarat, India.</span></p></div></section>
+</main>
+<footer><a href="#home"><img src="assets/musafir-gateaways-logo.png" alt="Musafir Gateaways"></a><p>Dream • Explore • Travel</p><small>© <span id="year"></span> Musafir Gateaways. All rights reserved.</small></footer>
+<a class="float-wa" href="https://wa.me/919724218939?text=Hello%20Musafir%20Gateaways%2C%20I%20have%20a%20travel%20enquiry." target="_blank" aria-label="WhatsApp">☏</a>
+
+<div class="modal" id="packageModal" aria-hidden="true"><div class="modal-panel" role="dialog" aria-modal="true"><button class="modal-x" id="modalX" aria-label="Close">×</button><img id="modalImg" src="" alt=""><div class="modal-body"><small id="modalType"></small><h2 id="modalTitle"></h2><p id="modalDesc"></p><h3>Trip highlights</h3><ul id="modalList"></ul><p class="fineprint">Package details, itinerary, pricing and availability are shared after enquiry and are subject to confirmation.</p><a class="btn-orange" id="modalEnquire" href="#" target="_blank">Enquire on WhatsApp ↗</a></div></div></div>
+<script src="script.js"></script>
+</body></html>
